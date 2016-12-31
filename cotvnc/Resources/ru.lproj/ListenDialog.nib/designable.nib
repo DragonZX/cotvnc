@@ -56,12 +56,12 @@
                     <popUpButton verticalHuggingPriority="750" misplaced="YES" imageHugsTitle="YES" id="12">
                         <rect key="frame" x="74" y="84" width="172" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <popUpButtonCell key="cell" type="push" title="default" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="border" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="10" id="32">
+                        <popUpButtonCell key="cell" type="push" title="По умолчанию" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="border" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="10" id="32">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="cellTitle"/>
                             <menu key="menu" title="OtherViews" id="11">
                                 <items>
-                                    <menuItem title="default" state="on" id="10"/>
+                                    <menuItem title="По умолчанию" state="on" id="10"/>
                                 </items>
                             </menu>
                         </popUpButtonCell>

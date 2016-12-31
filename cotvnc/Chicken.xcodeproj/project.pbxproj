@@ -298,6 +298,19 @@
 		26535DC11E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/ServerDisplay.nib; sourceTree = "<group>"; };
 		26535DC21E18435B006ED765 /* LICENSE.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.MD; sourceTree = "<group>"; };
 		26535DC41E1843AC006ED765 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		26535DC61E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/AuthPrompt.nib; sourceTree = "<group>"; };
+		26535DC71E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/ConnectionDialog.nib; sourceTree = "<group>"; };
+		26535DC81E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/ListenDialog.nib; sourceTree = "<group>"; };
+		26535DC91E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/Preferences.nib; sourceTree = "<group>"; };
+		26535DCA1E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/ProfileManager.nib; sourceTree = "<group>"; };
+		26535DCB1E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/OSX_RFBViewer.nib; sourceTree = "<group>"; };
+		26535DCC1E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/RFBConnection.nib; sourceTree = "<group>"; };
+		26535DCD1E184D1E006ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Resources/Base.lproj/ServerDisplay.nib; sourceTree = "<group>"; };
+		26535DD01E184DA4006ED765 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = Resources/en.lproj/AuthPrompt.nib; sourceTree = "<group>"; };
+		26535DD31E184DB9006ED765 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = Resources/en.lproj/ConnectionDialog.nib; sourceTree = "<group>"; };
+		26535DD61E184DED006ED765 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = Resources/en.lproj/RFBConnection.nib; sourceTree = "<group>"; };
+		26535DD91E184DFB006ED765 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = Resources/en.lproj/ServerDisplay.nib; sourceTree = "<group>"; };
+		26535DDC1E184E15006ED765 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = Resources/en.lproj/OSX_RFBViewer.nib; sourceTree = "<group>"; };
 		7F088F2405E1D81100336456 /* ServerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ServerDataManager.h; sourceTree = "<group>"; };
 		7F088F2505E1D81100336456 /* ServerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ServerDataManager.m; sourceTree = "<group>"; };
 		7F088F2805E1DA4800336456 /* URLHandlerCommand.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = URLHandlerCommand.h; sourceTree = "<group>"; };
@@ -318,7 +331,6 @@
 		7FF0C9A705CDC9A0008E39DD /* CotVNC.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.scriptTerminology; name = CotVNC.scriptTerminology; path = Resources/CotVNC.scriptTerminology; sourceTree = SOURCE_ROOT; };
 		7FFA8FE9062BA6330008D381 /* ServerBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ServerBase.h; sourceTree = "<group>"; };
 		7FFA8FEA062BA6330008D381 /* ServerBase.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ServerBase.m; sourceTree = "<group>"; };
-		7FFA903C062BA74F0008D381 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/ServerDisplay.nib; sourceTree = "<group>"; };
 		DA00481312CCF82E004E2C70 /* ZlibStreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlibStreamReader.h; sourceTree = "<group>"; };
 		DA00481412CCF82E004E2C70 /* ZlibStreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlibStreamReader.m; sourceTree = "<group>"; };
 		DA1FD8C312D5100400632D78 /* PersistentServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentServer.h; sourceTree = "<group>"; };
@@ -451,13 +463,11 @@
 		DAA91C8F1234319B000F1CCD /* DesktopNameEncodingReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesktopNameEncodingReader.h; sourceTree = "<group>"; };
 		DAA91C901234319B000F1CCD /* DesktopNameEncodingReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopNameEncodingReader.m; sourceTree = "<group>"; };
 		DAC8077D12FEC38400C4ADB6 /* ssh-helper.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "ssh-helper.sh"; path = "Resources/ssh-helper.sh"; sourceTree = "<group>"; };
-		DACD08DF1274C284001F6B72 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/ConnectionDialog.nib; sourceTree = "<group>"; };
 		DAD344B71304648200134E29 /* jaricom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jaricom.c; path = "libjpeg-turbo/jaricom.c"; sourceTree = "<group>"; };
 		DAD344B91304648200134E29 /* jdarith.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jdarith.c; path = "libjpeg-turbo/jdarith.c"; sourceTree = "<group>"; };
 		DAD344BA1304648200134E29 /* jpegcomp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpegcomp.h; path = "libjpeg-turbo/jpegcomp.h"; sourceTree = "<group>"; };
 		DAD6DEDF12DCF37A001FD9D6 /* AuthPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthPrompt.h; sourceTree = "<group>"; };
 		DAD6DEE012DCF37A001FD9D6 /* AuthPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthPrompt.m; sourceTree = "<group>"; };
-		DAD6DEE912DCF4A3001FD9D6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/AuthPrompt.nib; sourceTree = "<group>"; };
 		DAD6DEFC12DCF583001FD9D6 /* SshTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SshTunnel.h; sourceTree = "<group>"; };
 		DAD6DEFD12DCF583001FD9D6 /* SshTunnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SshTunnel.m; sourceTree = "<group>"; };
 		DAEB76F11232AE3400002E6A /* Keymap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keymap.m; sourceTree = "<group>"; };
@@ -495,17 +505,14 @@
 		E2B083E10763AA7D00CE24C1 /* ServerFromConnection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ServerFromConnection.h; sourceTree = "<group>"; };
 		E2B083ED0763AA9A00CE24C1 /* ListenerController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ListenerController.h; sourceTree = "<group>"; };
 		E2B083EE0763AA9A00CE24C1 /* ListenerController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ListenerController.m; sourceTree = "<group>"; };
-		E2B083F80763AAC200CE24C1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/ListenDialog.nib; sourceTree = "<group>"; };
 		E2B084000763ABD300CE24C1 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = Resources/French.lproj/ListenDialog.nib; sourceTree = "<group>"; };
 		E2CA650906DA451500B70BDF /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = help; path = Resources/help; sourceTree = "<group>"; };
 		E2F3A2C906D44755005EB917 /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
 		E2F3A2CA06D44755005EB917 /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
 		E2F3A2E306D4483D005EB917 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2F3A2E406D4483D005EB917 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2F3A33F06D44E0E005EB917 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/Preferences.nib; sourceTree = "<group>"; };
 		E2F3A3B206D45C7B005EB917 /* PrefController_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController_private.h; sourceTree = "<group>"; };
 		E2F3A3B306D45C7B005EB917 /* PrefController_private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController_private.m; sourceTree = "<group>"; };
-		E2F3A99D06D4BFD8005EB917 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/ProfileManager.nib; sourceTree = "<group>"; };
 		E2F3AB0206D5B86A005EB917 /* ProfileManager_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileManager_private.h; sourceTree = "<group>"; };
 		E2F3AB0306D5B86A005EB917 /* ProfileManager_private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileManager_private.m; sourceTree = "<group>"; };
 		E2F3AD6F06D5E11D005EB917 /* NSObject_Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_Chicken.h; sourceTree = "<group>"; };
@@ -534,8 +541,6 @@
 		F5DC7178033DB40D01A8010C /* rfbCursor3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = rfbCursor3.tiff; path = Resources/rfbCursor3.tiff; sourceTree = "<group>"; };
 		F5DC717B033DB40D01A8010C /* rfbCursor2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = rfbCursor2.tiff; path = Resources/rfbCursor2.tiff; sourceTree = "<group>"; };
 		F5DC717C033DB40D01A8010C /* rfbCursor.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = rfbCursor.tiff; path = Resources/rfbCursor.tiff; sourceTree = "<group>"; };
-		F5DC7186033DB44301A8010C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/RFBConnection.nib; sourceTree = "<group>"; };
-		F5DC7188033DB44301A8010C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/OSX_RFBViewer.nib; sourceTree = "<group>"; };
 		F5DC719B033DB4A801A8010C /* ByteBlockReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ByteBlockReader.h; sourceTree = "<group>"; };
 		F5DC719C033DB4A801A8010C /* ByteBlockReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ByteBlockReader.m; sourceTree = "<group>"; };
 		F5DC719D033DB4A801A8010C /* ByteReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ByteReader.h; sourceTree = "<group>"; };
@@ -1202,6 +1207,8 @@
 				German,
 				Italian,
 				ru,
+				Base,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Chicken of the VNC */;
 			projectDirPath = "";
@@ -1398,11 +1405,12 @@
 		7FFA903B062BA74F0008D381 /* ServerDisplay.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7FFA903C062BA74F0008D381 /* English */,
 				E2B083A30763A79F00CE24C1 /* French */,
 				E2F546510768C79D00AB2600 /* Italian */,
 				DA5B897111E193E4004F9B7B /* Japanese */,
 				26535DC11E184095006ED765 /* ru */,
+				26535DCD1E184D1E006ED765 /* Base */,
+				26535DD91E184DFB006ED765 /* en */,
 			);
 			name = ServerDisplay.nib;
 			sourceTree = "<group>";
@@ -1410,8 +1418,9 @@
 		DAD6DEE812DCF4A3001FD9D6 /* AuthPrompt.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DAD6DEE912DCF4A3001FD9D6 /* English */,
 				26535DBA1E184094006ED765 /* ru */,
+				26535DC61E184D1E006ED765 /* Base */,
+				26535DD01E184DA4006ED765 /* en */,
 			);
 			name = AuthPrompt.nib;
 			sourceTree = "<group>";
@@ -1431,11 +1440,11 @@
 		E2B083F70763AAC200CE24C1 /* ListenDialog.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E2B083F80763AAC200CE24C1 /* English */,
 				E2B084000763ABD300CE24C1 /* French */,
 				E2F546540768C79D00AB2600 /* Italian */,
 				DA5B896C11E193A6004F9B7B /* Japanese */,
 				26535DBC1E184095006ED765 /* ru */,
+				26535DC81E184D1E006ED765 /* Base */,
 			);
 			name = ListenDialog.nib;
 			sourceTree = "<group>";
@@ -1443,11 +1452,11 @@
 		E2F3A33E06D44E0E005EB917 /* Preferences.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E2F3A33F06D44E0E005EB917 /* English */,
 				E2B083A80763A79F00CE24C1 /* French */,
 				E2F5464F0768C79D00AB2600 /* Italian */,
 				DA5B896D11E193B6004F9B7B /* Japanese */,
 				26535DBD1E184095006ED765 /* ru */,
+				26535DC91E184D1E006ED765 /* Base */,
 			);
 			name = Preferences.nib;
 			sourceTree = "<group>";
@@ -1458,8 +1467,9 @@
 				E2B083A40763A79F00CE24C1 /* French */,
 				E2F5464E0768C79D00AB2600 /* Italian */,
 				DA5B896B11E19395004F9B7B /* Japanese */,
-				DACD08DF1274C284001F6B72 /* English */,
 				26535DBB1E184095006ED765 /* ru */,
+				26535DC71E184D1E006ED765 /* Base */,
+				26535DD31E184DB9006ED765 /* en */,
 			);
 			name = ConnectionDialog.nib;
 			sourceTree = "<group>";
@@ -1467,11 +1477,11 @@
 		E2F3A99C06D4BFD8005EB917 /* ProfileManager.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E2F3A99D06D4BFD8005EB917 /* English */,
 				E2B083AB0763A79F00CE24C1 /* French */,
 				E2F546520768C79D00AB2600 /* Italian */,
 				DA5B896E11E193C6004F9B7B /* Japanese */,
 				26535DBE1E184095006ED765 /* ru */,
+				26535DCA1E184D1E006ED765 /* Base */,
 			);
 			name = ProfileManager.nib;
 			sourceTree = "<group>";
@@ -1491,11 +1501,12 @@
 		F5DC7185033DB44301A8010C /* RFBConnection.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F5DC7186033DB44301A8010C /* English */,
 				E2B083A50763A79F00CE24C1 /* French */,
 				E2F5464C0768C79D00AB2600 /* Italian */,
 				DA5B897011E193DC004F9B7B /* Japanese */,
 				26535DC01E184095006ED765 /* ru */,
+				26535DCC1E184D1E006ED765 /* Base */,
+				26535DD61E184DED006ED765 /* en */,
 			);
 			name = RFBConnection.nib;
 			sourceTree = "<group>";
@@ -1503,11 +1514,12 @@
 		F5DC7187033DB44301A8010C /* OSX_RFBViewer.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F5DC7188033DB44301A8010C /* English */,
 				E2B083AA0763A79F00CE24C1 /* French */,
 				E2F546530768C79D00AB2600 /* Italian */,
 				DA5B896F11E193D3004F9B7B /* Japanese */,
 				26535DBF1E184095006ED765 /* ru */,
+				26535DCB1E184D1E006ED765 /* Base */,
+				26535DDC1E184E15006ED765 /* en */,
 			);
 			name = OSX_RFBViewer.nib;
 			sourceTree = "<group>";
@@ -1633,6 +1645,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 				ZERO_LINK = NO;
@@ -1645,6 +1658,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 				_CHICKEN_VERSION_ = 2.2b2;
 			};
@@ -1656,6 +1670,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 				_CHICKEN_VERSION_ = 2.2b2;
 			};
@@ -1706,10 +1721,11 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
-				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
-				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.7.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.7.sdk;
 				ZERO_LINK = NO;
 				_CHICKEN_VERSION_ = 2.2b2;
 			};
