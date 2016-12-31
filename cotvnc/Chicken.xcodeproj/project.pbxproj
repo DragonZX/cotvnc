@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26535DC31E18435B006ED765 /* LICENSE.MD in Sources */ = {isa = PBXBuildFile; fileRef = 26535DC21E18435B006ED765 /* LICENSE.MD */; };
+		26535DC51E1843AC006ED765 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = 26535DC41E1843AC006ED765 /* README.MD */; };
 		7F7A93E505E71B5C00E20416 /* ByteBlockReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DC719B033DB4A801A8010C /* ByteBlockReader.h */; };
 		7F7A93E605E71B5C00E20416 /* ByteReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DC719D033DB4A801A8010C /* ByteReader.h */; };
 		7F7A93E705E71B5C00E20416 /* CARD16Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DC719F033DB4A801A8010C /* CARD16Reader.h */; };
@@ -294,6 +296,8 @@
 		26535DBF1E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/OSX_RFBViewer.nib; sourceTree = "<group>"; };
 		26535DC01E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/RFBConnection.nib; sourceTree = "<group>"; };
 		26535DC11E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/ServerDisplay.nib; sourceTree = "<group>"; };
+		26535DC21E18435B006ED765 /* LICENSE.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.MD; sourceTree = "<group>"; };
+		26535DC41E1843AC006ED765 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		7F088F2405E1D81100336456 /* ServerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ServerDataManager.h; sourceTree = "<group>"; };
 		7F088F2505E1D81100336456 /* ServerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ServerDataManager.m; sourceTree = "<group>"; };
 		7F088F2805E1DA4800336456 /* URLHandlerCommand.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = URLHandlerCommand.h; sourceTree = "<group>"; };
@@ -518,7 +522,6 @@
 		E2F546520768C79D00AB2600 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Resources/Italian.lproj/ProfileManager.nib; sourceTree = "<group>"; };
 		E2F546530768C79D00AB2600 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Resources/Italian.lproj/OSX_RFBViewer.nib; sourceTree = "<group>"; };
 		E2F546540768C79D00AB2600 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Resources/Italian.lproj/ListenDialog.nib; sourceTree = "<group>"; };
-		F52128E40368AF9F01F702E0 /* GNU Public License.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "GNU Public License.txt"; sourceTree = "<group>"; };
 		F536C26603937E5301178D82 /* ZlibHexEncodingReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZlibHexEncodingReader.h; sourceTree = "<group>"; };
 		F536C26703937E5301178D82 /* ZlibHexEncodingReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZlibHexEncodingReader.m; sourceTree = "<group>"; };
 		F536C26803937E5301178D82 /* ZRLEEncodingReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZRLEEncodingReader.h; sourceTree = "<group>"; };
@@ -924,7 +927,8 @@
 		F5DC718B033DB45F01A8010C /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				F52128E40368AF9F01F702E0 /* GNU Public License.txt */,
+				26535DC21E18435B006ED765 /* LICENSE.MD */,
+				26535DC41E1843AC006ED765 /* README.MD */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -1247,6 +1251,7 @@
 				7F7A942805E71B5C00E20416 /* ByteReader.m in Sources */,
 				7F7A942905E71B5C00E20416 /* CARD16Reader.m in Sources */,
 				7F7A942A05E71B5C00E20416 /* CARD32Reader.m in Sources */,
+				26535DC31E18435B006ED765 /* LICENSE.MD in Sources */,
 				7F7A942B05E71B5C00E20416 /* CARD8Reader.m in Sources */,
 				7F7A942D05E71B5C00E20416 /* CopyRectangleEncodingReader.m in Sources */,
 				7F7A942E05E71B5C00E20416 /* CoRREEncodingReader.m in Sources */,
@@ -1260,6 +1265,7 @@
 				7F7A943605E71B5C00E20416 /* HextileEncodingReader.m in Sources */,
 				7F7A943705E71B5C00E20416 /* HighColorFrameBuffer.m in Sources */,
 				7F7A943805E71B5C00E20416 /* LowColorFrameBuffer.m in Sources */,
+				26535DC51E1843AC006ED765 /* README.MD in Sources */,
 				7F7A943A05E71B5C00E20416 /* PaletteFilter.m in Sources */,
 				7F7A943B05E71B5C00E20416 /* Profile.m in Sources */,
 				7F7A943C05E71B5C00E20416 /* ProfileManager.m in Sources */,
