@@ -284,6 +284,16 @@
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		26535DB81E184094006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Resources/ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26535DB91E184094006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Resources/ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		26535DBA1E184094006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/AuthPrompt.nib; sourceTree = "<group>"; };
+		26535DBB1E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/ConnectionDialog.nib; sourceTree = "<group>"; };
+		26535DBC1E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/ListenDialog.nib; sourceTree = "<group>"; };
+		26535DBD1E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/Preferences.nib; sourceTree = "<group>"; };
+		26535DBE1E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/ProfileManager.nib; sourceTree = "<group>"; };
+		26535DBF1E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/OSX_RFBViewer.nib; sourceTree = "<group>"; };
+		26535DC01E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/RFBConnection.nib; sourceTree = "<group>"; };
+		26535DC11E184095006ED765 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = Resources/ru.lproj/ServerDisplay.nib; sourceTree = "<group>"; };
 		7F088F2405E1D81100336456 /* ServerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ServerDataManager.h; sourceTree = "<group>"; };
 		7F088F2505E1D81100336456 /* ServerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ServerDataManager.m; sourceTree = "<group>"; };
 		7F088F2805E1DA4800336456 /* URLHandlerCommand.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = URLHandlerCommand.h; sourceTree = "<group>"; };
@@ -1187,6 +1197,7 @@
 				French,
 				German,
 				Italian,
+				ru,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Chicken of the VNC */;
 			projectDirPath = "";
@@ -1385,6 +1396,7 @@
 				E2B083A30763A79F00CE24C1 /* French */,
 				E2F546510768C79D00AB2600 /* Italian */,
 				DA5B897111E193E4004F9B7B /* Japanese */,
+				26535DC11E184095006ED765 /* ru */,
 			);
 			name = ServerDisplay.nib;
 			sourceTree = "<group>";
@@ -1393,6 +1405,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DAD6DEE912DCF4A3001FD9D6 /* English */,
+				26535DBA1E184094006ED765 /* ru */,
 			);
 			name = AuthPrompt.nib;
 			sourceTree = "<group>";
@@ -1404,6 +1417,7 @@
 				E2B083A70763A79F00CE24C1 /* French */,
 				E2F5464B0768C79D00AB2600 /* Italian */,
 				DA5B897411E1940A004F9B7B /* Japanese */,
+				26535DB91E184094006ED765 /* ru */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1415,6 +1429,7 @@
 				E2B084000763ABD300CE24C1 /* French */,
 				E2F546540768C79D00AB2600 /* Italian */,
 				DA5B896C11E193A6004F9B7B /* Japanese */,
+				26535DBC1E184095006ED765 /* ru */,
 			);
 			name = ListenDialog.nib;
 			sourceTree = "<group>";
@@ -1426,6 +1441,7 @@
 				E2B083A80763A79F00CE24C1 /* French */,
 				E2F5464F0768C79D00AB2600 /* Italian */,
 				DA5B896D11E193B6004F9B7B /* Japanese */,
+				26535DBD1E184095006ED765 /* ru */,
 			);
 			name = Preferences.nib;
 			sourceTree = "<group>";
@@ -1437,6 +1453,7 @@
 				E2F5464E0768C79D00AB2600 /* Italian */,
 				DA5B896B11E19395004F9B7B /* Japanese */,
 				DACD08DF1274C284001F6B72 /* English */,
+				26535DBB1E184095006ED765 /* ru */,
 			);
 			name = ConnectionDialog.nib;
 			sourceTree = "<group>";
@@ -1448,6 +1465,7 @@
 				E2B083AB0763A79F00CE24C1 /* French */,
 				E2F546520768C79D00AB2600 /* Italian */,
 				DA5B896E11E193C6004F9B7B /* Japanese */,
+				26535DBE1E184095006ED765 /* ru */,
 			);
 			name = ProfileManager.nib;
 			sourceTree = "<group>";
@@ -1459,6 +1477,7 @@
 				E2B083A90763A79F00CE24C1 /* French */,
 				E2F546500768C79D00AB2600 /* Italian */,
 				DA5B897211E193EF004F9B7B /* Japanese */,
+				26535DB81E184094006ED765 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1470,6 +1489,7 @@
 				E2B083A50763A79F00CE24C1 /* French */,
 				E2F5464C0768C79D00AB2600 /* Italian */,
 				DA5B897011E193DC004F9B7B /* Japanese */,
+				26535DC01E184095006ED765 /* ru */,
 			);
 			name = RFBConnection.nib;
 			sourceTree = "<group>";
@@ -1481,6 +1501,7 @@
 				E2B083AA0763A79F00CE24C1 /* French */,
 				E2F546530768C79D00AB2600 /* Italian */,
 				DA5B896F11E193D3004F9B7B /* Japanese */,
+				26535DBF1E184095006ED765 /* ru */,
 			);
 			name = OSX_RFBViewer.nib;
 			sourceTree = "<group>";
